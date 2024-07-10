@@ -1,0 +1,68 @@
+@import './normalize';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+@import './variables';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Quicksand, sans-serif;
+  font-size: 14px;
+
+  @include tablet {
+    font-size: 16px;
+  }
+}
+
+.App-dark,
+.App-light {
+  background-color: var(--main-bg-color);
+}
+
+section {
+  --aside-max-width: 250px;
+  --aside-min-width: 360px;
+
+  padding-top: $header-height !important;
+  color: var(--primary-text);
+  min-height: 100vh;
+
+  main {
+    width: 100%;
+  }
+  aside {
+    position: relative;
+  }
+  aside > div:first-child {
+    position: sticky;
+    top: $header-height;
+    overflow: auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include tablet {
+      min-height: calc(100vh - $header-height);
+    }
+  }
+
+  @include tablet {
+    display: flex;
+
+    aside {
+      min-width: var(--aside-min-width);
+      max-width: var(--aside-max-width);
+    }
+  }
+
+  @include desktop {
+    max-width: $desktop-min-width;
+    margin: 0 auto;
+  }
+}

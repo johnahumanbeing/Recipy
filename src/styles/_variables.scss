@@ -1,0 +1,49 @@
+// media queries
+@mixin xsmobile {
+  @media (max-width: 365px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+// COLORS
+$primary-color: #f97b22;
+$nav-link-color: #fff6e0;
+$nav-link-color-active: #aa8b56;
+$card-border-color: #d5d5d5;
+
+// DIMENSIONS
+$header-height: 55px;
+$logo-width: 145px;
+$tablet-min-width: 700px;
+$desktop-min-width: 1200px;
+
+// mixins
+@mixin flex-hv-space-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-hv-space-around-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flex-hv-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
