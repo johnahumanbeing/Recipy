@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+.Recipes {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  @include tablet {
+    padding: 2rem;
+  }
+}
