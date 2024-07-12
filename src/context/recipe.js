@@ -69,7 +69,7 @@ export function RecipeProvider({ children }) {
           fetchHomeRecipes,
           meal,
         },
-        search: {
+        search: { // search recipes
           fetchSearchRecipes,
           searchRecipes,
           setSearchRecipes,
