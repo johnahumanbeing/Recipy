@@ -1,4 +1,4 @@
-# This iis the test branch where the testi ng is done
+# This is the test branch where the testing is done
 
 # Recipe App
 
