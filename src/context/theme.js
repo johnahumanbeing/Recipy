@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [dark, setDark] = useState(true);
 
   useEffect(() => {
-    const isSystemThemeDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isSystemThemeDark = window.matchMedia('(prefers-color-scheme: dark)').matches; // Check if system theme is dark
     if (isSystemThemeDark) {
       setDark(true);
     } else {
