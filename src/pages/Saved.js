@@ -4,7 +4,7 @@ import RecipeContext from '../context/recipe';
 import Footer from '../components/Footer';
 import '../styles/saved.scss';
 
-export default function Saved() {
+export default function Saved() { // Saved component
   const { saved } = useContext(RecipeContext);
   const { savedRecipes, setSavedRecipes, saveRecipesToLocalStorage } = saved;
 
