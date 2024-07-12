@@ -8,6 +8,7 @@ import ThemeToggler from './ThemeToggler';
 import MenuButton from './MenuButton';
 import Footer from './Footer';
 
+// Header component
 function Header() {
   const [hide, setHide] = useState(true);
   const { dark } = useContext(ThemeContext);
