@@ -6,7 +6,7 @@ import '../styles/recipe.scss';
 import { Thumbnail } from '../components/RecipeCard';
 import Loading from '../components/Loading';
 
-function Recipe() {
+function Recipe() { // Recipe component
   const [loading, setLoading] = useState(true);
   const [recipe, setRecipe] = useState({});
   const [nutrients, setNutrients] = useState([]);
