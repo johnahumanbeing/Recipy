@@ -32,3 +32,10 @@ Once the app is up and running, you can start exploring and using its features. 
 ## Contributing
 
 We welcome contributions from the community to make the Recipe App even better. If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request on our GitHub repository.
+
+## Technologies
+### Front-End
+#### 1. React.js
+#### 2. react-router-dom
+#### 3. Sass
+#### 4. Axios
