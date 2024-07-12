@@ -1,6 +1,6 @@
 # Recipe App
 
-Welcome to the Recipe App! This app is designed to help you discover and organize your favorite recipes. Whether you're a seasoned chef or just starting out in the kitchen, this app has something for everyone.
+Also known as wasfa in Arabic terms, Welcome to the Recipe App! This app is designed to help you discover and organize your favorite recipes. Whether you're a seasoned chef or just starting out in the kitchen, this app has something for everyone.
 
 ## Features
 
