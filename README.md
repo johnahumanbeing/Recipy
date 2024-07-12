@@ -39,3 +39,11 @@ We welcome contributions from the community to make the Recipe App even better. 
 #### 2. react-router-dom
 #### 3. Sass
 #### 4. Axios
+
+### Backend
+#### 1. Javascript
+#### 2. Node.js
+#### 3. python
+
+### API
+#### Edamam recipe search api
