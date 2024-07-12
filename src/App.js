@@ -14,5 +14,5 @@ function App() {
     </div>
   );
 }
-
+// theme for the app, dark or light
 export default App;
