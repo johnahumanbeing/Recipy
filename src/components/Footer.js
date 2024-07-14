@@ -6,7 +6,7 @@ export default function Footer({ device }) {
       <div className='links'>
         <a href='#'>Terms</a> · <a href='#'>Privacy</a>
       </div>
-      <div className='copyright'>WasfaFinder © 2024</div>
+      <div className='copyright'>Recipy App © 2024</div>
     </div>
   );
 }
